@@ -1,0 +1,500 @@
+  380  root -l 'buildPulses.cxx("../../data/Angle_1,5_1,5_COMPARISON/prunedOutput.root", 1., "outputNO_NOISE_SPTR0NS")'
+  381  root -l 'buildPulses.cxx("../../data/Angle_1,5_1,5_COMPARISON/prunedOutput.root", 1., "outputNO_NOISE_SPTR0NS")'
+  382  root -l 'buildPulses.cxx("../../data/Angle_1,5_1,5_COMPARISON/prunedOutput.root", 1., "outputNO_NOISE_SPTR0NS")'
+  383  ls -l
+  384  touch prova.txt
+  385  open prova.txt 
+  386  root -l 'buildPulses.cxx("../../data/Angle_1,5_1,5_COMPARISON/prunedOutput.root", 1., "outputNO_NOISE_SPTR0NS")'
+  387  root -l
+  388  ls -l
+  389  rm prova.txt 
+  390  ls -l
+  391  cd ..
+  392  cls -l
+  393  sls -l
+  394  ls -l
+  395  cd ..
+  396  ls -l
+  397  ls -l
+  398  kkkkpkk
+  399  ls -l
+  400  cd spacal-simulation/
+  401  ls -l
+  402  cd scripts/
+  403  ls -l
+  404  rm outputNO*
+  405  ls -l
+  406  root -l OutputAnalysisTimestamps.root 
+  407  rm OutputAnalysisTimestamps.root 
+  408  ls -l
+  409  code ../signalFormation/SignalConfigFile.cfg 
+  410  cd ..
+  411  git add scripts/* signalFormation/*
+  412  ls -l
+  413  cd programs/
+  414  ls -l
+  415  code pruneSigFormOutput.cpp 
+  416  code ../signalFormation/simReadout.cpp 
+  417  ls -l
+  418  cd ..
+  419  ./deploy.sh 
+  420  ./deploy.sh 
+  421  ls -l
+  422  git add scripts/* signalFormation/*
+  423  git commit -m "Tested the difference between CFD and average of first timestamps"
+  424  git push
+  425  ls -l
+  426  ls -l
+  427  ls -l
+  428  ssh -Y lmartina@lxplus.cern.ch
+  429  ssh -Y lmartina@lxplus.cern.ch
+  430  ls -l
+  431  code scripts/analyse*
+  432  code scripts/analyse*
+  433  code scripts/analyse*
+  434  cp scripts/analyseSignals.cxx scripts/analyseSignals_backup.cxx 
+  435  code scripts/analyseSignals_backup.cxx 
+  436  code prova.cxx
+  437  rm programs/
+  438  ls -l
+  439  open run.png 
+  440  ssh -Y lmartina@lxplus.cern.ch
+  441  root -l 'analyseTimestamps.cxx("../../data/Angle_1,5_1,5_3Losses/prunedOutput.root", 0.25)' 
+  442  pwd
+  443  cd s
+  444  ls -l
+  445  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  446  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  447  cd Documents/CERN_Doctoral/
+  448  ls -l
+  449  cd Simulations/
+  450  ls -l
+  451  cd SPACAL/
+  452  ls -l
+  453  cd spacal-simulation/
+  454  ls -l
+  455  cd ls -l
+  456  git branch
+  457  code signalFormation/ApplyCFD.cpp 
+  458  cd ..
+  459  cd spacal-simulation/
+  460  ./deploy.sh 
+  461  cd ..
+  462  cd ..d
+  463  cd data/
+  464  ls -l
+  465  cd Angle_1,5_1,5_new/
+  466  ls -l
+  467  mkdir pulses1gev
+  468  cd pulses1gev/
+  469  ls -l
+  470  ls -l ..
+  471  ls -l
+  472  ls -l
+  473  rsync -av -e ssh --exclude='out*.root' --exclude='hybrid*.root' --exclude='resolution*'  lmartina@lxplus.cern.ch:/eos/experiment/spacal/Simulations/NotePlots/AngleScan/Angle_1,5_1,5/1GeV/OutTrigd_*_CFD0.5.root .
+  474  ls -l
+  475  root -l OutTrigd_*
+  476  root -l 
+  477  ls -l
+  478  cd ../../../spacal-simulation/
+  479  ls -l
+  480  ./deploy.sh 
+  481  root -l ../data/Angle_1,5_1,5_new/pulses1gev/OutTrigd_0_CFD0.5.root 
+  482  ls -l
+  483  code signalFormation/simReadout.cpp 
+  484  code signalFormation/LHamamatsuR7899.hh 
+  485  ./deploy.sh 
+  486  ./deploy.sh 
+  487  ./deploy.sh 
+  488  ls -l
+  489  git add signalFormation/*
+  490  code signalFormation/LHamamatsuH13543.hh 
+  491  git add signalFormation/*
+  492  git commit -m "Modified PMTs gain and amplitude" 
+  493  git pull --rebase origin master
+  494  git add*
+  495  git add *
+  496  git commit -m "Modified PMTs gain and amplitude" 
+  497  gi rm parametrization/*png parametrization/fastSummaryPlots.C 
+  498  git rm parametrization/*png parametrization/fastSummaryPlots.C 
+  499  git commit -m "Modified PMTs gain and amplitude" 
+  500  git push
+  501  cd Documents/CERN_Doctoral/
+  502  ls -l
+  503  cd Simulations/SPACAL/
+  504  ls -l
+  505  cd spacal-simulation/scripts/
+  506  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  507  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  508  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  509  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  510  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  511  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  512  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  513  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  514  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  515  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  516  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  517  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  518  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  519  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  520  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  521  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  522  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  523  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root
+  524  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  525  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  526  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  527  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  528  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  529  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  530  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  531  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  532  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  533  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  534  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  535  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  536  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  537  ls -l
+  538  code buildPulses.cxx 
+  539  code buildPulses.cxx 
+  540  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  541  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  542  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")'
+  543  root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root 
+  544  .q
+  545  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  546  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  547  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  548  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  549  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  550  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  551  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  552  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  553  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  554  code ~/Documents/CERN_Doctoral/Benches/EmissionSpectra/PlotSpectra.cpp 
+  555  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  556  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  557  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  558  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  559  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  560  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  561  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  562  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  563  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' && root -l ../../data/Angle_1,5_1,5_new/pulseAnalysed.root ../../data/Angle_1,5_1,5_new/1GeV/prunedOutput.root
+  564  root -l 'analyseSignals.cxx("../../data/Angle_1,5_1,5_new/")' 
+  565  ls -l
+  566  git add analyseSignals
+  567  git add analyseSignals.cxx 
+  568  git commit -m "Script to analyse the pruned files and produce plots"
+  569  git pull --rebase
+  570  git pull --rebase origin master
+  571  cd ..
+  572  ls -l
+  573  git add *
+  574  git commit -m "Script to analyse the pruned files and produce plots"
+  575  git pull --rebase origin master
+  576  git push
+  577  git pull --rebase
+  578  git push
+  579  ssh -Y lmartina@lxplus.cern.ch
+  580  ls -l
+  581  ls -l
+  582  cd ..
+  583  ls -l
+  584  cd data/
+  585  ls -l
+  586  mkdir Tests
+  587  mc Angle_* Tests/
+  588  mv Angle_* Tests/
+  589  ls -l
+  590  mkdir AngleScan_APR2020
+  591  cd AngleScan_APR2020/
+  592  ls -l
+  593  rsync -av -e ssh --exclude='*Groupd*' --exclude='*Trig*'  lmartina@lxplus.cern.ch:/eos/experiment/spacal/Simulations/NotePlots/AngleScan/SignalFormation_1,5_1,5 .
+  594  ls -l
+  595  cd SignalFormation_1,5_1,5/
+  596  ls -l
+  597  cd ..
+  598  ls -l
+  599  cd ..
+  600  ls -l
+  601  cd ..
+  602  ls -l
+  603  cd spacal-simulation/
+  604  cd scripts/
+  605  ls -l
+  606  ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR
+  607  root -l 'analyseSignals.cxx("SPTR0,276_QE1_FL1/")' 
+  608  root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL1/")' 
+  609  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL1/pulseAnalysed.root
+  610  root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL1/")' 
+  611  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL1/pulseAnalysed.root
+  612  root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL4/")' 
+  613  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL4/pulseAnalysed.root
+  614  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL4/pulseAnalysed.root
+  615  root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL4/")' 
+  616  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR0,276_QE1_FL4/pulseAnalysed.root
+  617  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/${folder}")'; done
+  618  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do echo $folder; done
+  619  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do echo ${folder}; done
+  620  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do echo "${folder}"; done
+  621  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l 'analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder")'; done
+  622  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l "analyseSignals.cxx('../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder')"; done
+  623  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l "analyseSignals.cxx(\'../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\')"; done
+  624  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l \"analyseSignals.cxx(\'../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\')\"; done
+  625  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root -l "analyseSignals.cxx(\'../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\')"; done
+  626  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; root -l 'analyseSignals.cxx($path)'; done
+  627  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; root -l \'analyseSignals.cxx($path)\'; done
+  628  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; root -l \' analyseSignals.cxx($path) \'; done
+  629  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; command="root -l  'analyseSignals.cxx($path)'"; $command; done
+  630  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l $a analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder")$a;  done
+  631  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l $a analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder") $a;  done
+  632  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder") $a;  done
+  633  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder");  done
+  634  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l $a analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder") $a;  done
+  635  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do  a="'"; root -l $a analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/${folder}") $a;  done
+  636  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do   root -l analyseSignals.cxx("../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/${folder}");  done
+  637  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do echo $folder; done
+  638  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; echo path; done
+  639  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; echo $path; done
+  640  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; echo $path; done
+  641  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; echo $a; done
+  642  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root -l $a($path)$a; done
+  643* for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root ($path); done
+  644  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root -l $a  analyseSignals.cxx($path)$a; done
+  645  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root -l analyseSignals.cxx($path); done
+  646  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root -l $path; done
+  647  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="'"; root -l $path; done
+  648  .
+  649  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="\'"; root -l $path; done
+  650  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do path="../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder"; a="\'"; root -l $a analyseSignals.cxx($path)$a; done
+  651  root -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/\")"
+  652  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\")"; done
+  653  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\")"; done
+  654  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/*/pulseAnalysedé
+  655  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/*/pulseAnalysed*
+  656  cd ../../data/AngleScan_APR2020/
+  657  ls -l
+  658  cd SignalFormation_1,5_1,5/
+  659  ls -l
+  660  root -l */pulse*
+  661  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse\")"; done
+  662  cd ../../../spacal-simulation/scripts/
+  663  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse\")"; done
+  664  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR1_QE1_FL4/1GeV/prunedOutput.root 
+  665  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse\")"; done
+  666  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_deposition\")"; done
+  667  root -l ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/SPTR1_QE1_FL4/1GeV/prunedOutput.root 
+  668  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_depoAndScint\")"; done
+  669  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_depoAndScint\")"; done
+  670  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_depoAndTrans\")"; done
+  671  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_depoAndScint\")"; done
+  672  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse_\")"; done
+  673  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse\")"; done
+  674  cd ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/
+  675  ls -l
+  676  root -l *analysis_t
+  677  root -l *analysis_t*
+  678  root -l */analysis_t*
+  679  cd ../../../spacal-simulation/scripts/
+  680  for folder in `ls ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/ | grep SPTR`; do root  -l "analyseSignals.cxx(\"../../data/AngleScan_APR2020/SignalFormation_1,5_1,5/$folder\", \"analysis_t_pulse\")"; done
+  681  cd ../../data/AngleScan_APR2020/SignalFormation_1,5_1,5
+  682  ls -l
+  683  root -l */analysis_t*
+  684  ls -l
+  685  root -l simComparison.C 
+  686  root -l simComparison.C 
+  687  root -l simComparison.C 
+  688  root -l simComparison.C 
+  689  root -l simComparison.C 
+  690  root -l simComparison.C 
+  691  root -l simComparison.C 
+  692  root -l */analysis_t*
+  693  root -l simComparison.C 
+  694  root -l simComparison.C 
+  695  root -l simComparison.C 
+  696  root -l simComparison.C 
+  697  root -l simComparison.C 
+  698  root -l simComparison.C 
+  699  root -l simComparison.C 
+  700  pwd
+  701  root -l */analysis_t*
+  702  .q
+  703  root -l simComparison.C 
+  704  root -l simComparison.C 
+  705  root -l simComparison.C 
+  706  root -l simComparison.C 
+  707  root -l simComparison.C 
+  708  root -l simComparison.C 
+  709  root -l simComparison.C 
+  710  root -l simComparison.C 
+  711  root -l simComparison.C 
+  712  root -l simComparison.C 
+  713  root -l simComparison.C 
+  714  root -l simComparison.C 
+  715  root -l simComparison.C 
+  716  root -l simComparison.C 
+  717  root -l simComparison.C 
+  718  root -l simComparison.C 
+  719  root -l simComparison.C 
+  720  root -l simComparison.C 
+  721  root -l simComparison.C 
+  722  root -l simComparison.C 
+  723  code ~/Documents/CERN_Doctoral/Benches/EmissionSpectra/PlotSpectra.cpp 
+  724  code ~/Documents/CERN_Doctoral/Benches/EmissionSpectra/PlotSpectra.cpp 
+  725  root -l simComparison.C 
+  726  root -l simComparison.C 
+  727  root -l simComparison.C 
+  728  root -l simComparison.C 
+  729  root -l simComparison.C 
+  730  root -l simComparison.C 
+  731  root -l simComparison.C 
+  732  root -l simComparison.C 
+  733  root -l simComparison.C 
+  734  root -l simComparison.C 
+  735  root -l simComparison.C 
+  736  root -l simComparison.C 
+  737  root -l simComparison.C 
+  738  root -l simComparison.C 
+  739  root -l simComparison.C 
+  740  root -l simComparison.C 
+  741  root -l simComparison.C 
+  742  root -l simComparison.C 
+  743  root -l simComparison.C 
+  744  root -l simComparison.C 
+  745  root -l simComparison.C 
+  746  root -l simComparison.C 
+  747  root -l simComparison.C 
+  748  root -l simComparison.C 
+  749  root -l simComparison.C 
+  750  .q
+  751  root -l simComparison.C 
+  752  root -l simComparison.C 
+  753  root -l simComparison.C 
+  754  root -l PlotsOfComparison.root 
+  755  .q
+  756  root -l simComparison.C 
+  757  root -l simComparison.C 
+  758  .q
+  759  root -l simComparison.C 
+  760  root -l simComparison.C 
+  761  root -l simComparison.C 
+  762  root -l simComparison.C 
+  763  root -l simComparison.C 
+  764  root -l simComparison.C 
+  765  root -l simComparison.C 
+  766  .q
+  767  root -l simComparison.C 
+  768  root -l simComparison.C 
+  769  root -l simComparison.C 
+  770  root -l simComparison.C 
+  771  root -l simComparison.C 
+  772  root -l simComparison.C 
+  773  root -l simComparison.C 
+  774  root -l simComparison.C 
+  775  root -l simComparison.C 
+  776  root -l simComparison.C 
+  777  root -l simComparison.C 
+  778  root -l simComparison.C 
+  779  root -l simComparison.C 
+  780  root -l simComparison.C 
+  781  root -l simComparison.C 
+  782  .q
+  783  root -l simComparison.C 
+  784  root -l simComparison.C 
+  785  root -l simComparison.C 
+  786  root -l simComparison.C 
+  787  root -l simComparison.C 
+  788  root -l simComparison.C 
+  789  root -l simComparison.C 
+  790  root -l simComparison.C 
+  791  root -l simComparison.C 
+  792  root -l simComparison.C 
+  793  root -l simComparison.C 
+  794  root -l simComparison.C 
+  795  root -l simComparison.C 
+  796  root -l simComparison.C 
+  797  root -l simComparison.C 
+  798  root -l simComparison.C 
+  799  root -l simComparison.C 
+  800  root -l simComparison.C 
+  801  root -l simComparison.C 
+  802  root -l simComparison.C 
+  803  root -l simComparison.C 
+  804  root -l simComparison.C 
+  805  root -l simComparison.C 
+  806  root -l simComparison.C 
+  807  root -l simComparison.C 
+  808  root -l simComparison.C 
+  809  root -l simComparison.C 
+  810  root -l simComparison.C 
+  811  root -l simComparison.C 
+  812  root -l simComparison.C 
+  813  root -l simComparison.C 
+  814  root -l simComparison.C 
+  815  +
+  816  root -l simComparison.C 
+  817  root -l simComparison.C 
+  818  root -l simComparison.C 
+  819  root -l simComparison.C 
+  820  root -l simComparison.C 
+  821  root -l simComparison.C 
+  822  root -l simComparison.C 
+  823  root -l simComparison.C 
+  824  +
+  825  root -l simComparison.C 
+  826  root -l simComparison.C 
+  827  root -l simComparison.C 
+  828  root -l simComparison.C 
+  829  root -l simComparison.C 
+  830  root -l simComparison.C 
+  831  root -l simComparison.C 
+  832  root -l simComparison.C 
+  833  root -l simComparison.C 
+  834  root -l simComparison.C 
+  835  root -l simComparison.C 
+  836  open .
+  837  ssh -Y lmartina@lxplus.cern.ch
+  838  open .
+  839  root -l SPTR0_QE1_FL4/4GeV/OutTrigd_0_CFD0.5.root 
+  840  ls -l
+  841  ls -l
+  842  root -l simComparison.C 
+  843  root -l simComparison.C 
+  844  root -l simComparison.C 
+  845  root -l simComparison.C 
+  846  root -l simComparison.C 
+  847  root -l simComparison.C 
+  848  root -l simComparison.C 
+  849  q
+  850  q
+  851  root -l simComparison.C 
+  852  root -l simComparison.C 
+  853  root
+  854  root -l simComparison.C 
+  855  ls -l
+  856  cd .
+  857  cd ..
+  858  cd ..
+  859  cd ..
+  860  cd spacal-simulation/
+  861  ls -l
+  862  git branch
+  863  git pull --rebase 
+  864  ls -l
+  865  git add *
+  866  git commit -m "Tested version which produced first results"
+  867  git push
+  868  git pull --rebase 
+  869  git pull --rebase origin master
+  870  git add *
+  871  git commit -m "Tested version which produced first results"
+  872  git push
+  873  git pull --rebase
+  874  git push
+  875  git branch
+  876  history
+  877  ls -l
+  878  code scripts/analyseSignals.cxx 
+  879  history >> history.txt
