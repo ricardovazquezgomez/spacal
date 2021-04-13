@@ -1,0 +1,10 @@
+gaudirun.py gauss_upgrade_option_0.py >0.log&
+gaudirun.py gauss_upgrade_option_1.py >1.log&
+gaudirun.py gauss_upgrade_option_2.py >2.log&
+gaudirun.py gauss_upgrade_option_3.py >3.log&
+gaudirun.py gauss_upgrade_option_4.py >4.log&
+gaudirun.py gauss_upgrade_option_5.py >5.log&
+gaudirun.py gauss_upgrade_option_6.py >6.log&
+gaudirun.py gauss_upgrade_option_7.py >7.log&
+gaudirun.py gauss_upgrade_option_8.py >8.log&
+gaudirun.py gauss_upgrade_option_9.py >9.log&
