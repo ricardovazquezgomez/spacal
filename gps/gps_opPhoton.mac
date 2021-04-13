@@ -1,0 +1,11 @@
+# Macro file for the
+# initialization of G4GeneralParticleSource
+
+# OPTICAL PHOTONS
+/gps/particle               opticalphoton
+/gps/pos/type               Point
+/gps/ang/type               iso
+/gps/pos/centre             0 0 0. mm
+/run/beamOn 10000
+
+

@@ -1,0 +1,18 @@
+# Macro file for the
+# initialization of G4GeneralParticleSource
+
+/gps/energy 10 GeV
+/gps/particle mu-
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre -1 0 -20  cm
+/gps/pos/halfx 3.0  mm
+/gps/pos/halfy 3.0  mm
+
+# pointing, 3 degrees tilt
+/gps/direction 0.05235 0 0.9986
+
+/run/beamOn 10
+
+
+
