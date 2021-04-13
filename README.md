@@ -555,3 +555,4 @@ LAPPD_layers_thickness = NULL
 
 then both this key and the LAPPD_layers_materials key are ignored, and the positioning of a separation volume is regulated by the keys separation_thickness and separation_material. Note that the vector of materials does not have to be set to NULL for this to happen. The position of the center of the separation volume is still set by the cell_separator_position key, as in the case of single-layer separator.
 Note that another flag has been introduced (saveLAPPD) which creates a TTree with observables of interest for performance studies of a LAPPD as separator.
+# spacal
